@@ -1,9 +1,15 @@
 # Zelda for the Atari 65XE + VBXE
 
-A port of the Commodore 64 conversion of *The Legend of Zelda* to an 8-bit Atari (65XE/130XE class) with a
-[VBXE](https://www.atariwiki.org/wiki/Wiki.jsp?page=VBXE) video board. It is a port, not a remake. The original
-6502 code of the C64 cartridge runs natively on the Atari, at its own addresses. Only its accesses to C64 hardware
-(VIC-II, SID, CIA, EasyFlash bank switching) are patched, to an Atari runtime that emulates what they did.
+A fan remake: the Commodore 64 conversion of *The Legend of Zelda*, brought to an 8-bit Atari (65XE/130XE class)
+with a [VBXE](https://www.atariwiki.org/wiki/Wiki.jsp?page=VBXE) video board. The original 6502 code of the C64
+cartridge runs natively on the Atari, at its own addresses. Only its accesses to C64 hardware (VIC-II, SID, CIA,
+EasyFlash bank switching) are patched, to an Atari runtime that emulates what they did.
+
+**Watch it:** [the whole game played through on AltirraSDL](https://www.youtube.com/watch?v=dy5RoQBSTKM) (YouTube),
+from the title screen to the credits.
+
+**This is a work in progress.** The whole game can be played to the end, but there are probably tons of bugs still
+left to squash.
 
 **This repository contains no game code or data.** You need your own copy of the C64 cartridge image
 (`Zelda_C64.crt`). The build reads it and patches it into an Atari cartridge image on your machine.
@@ -12,7 +18,9 @@ A port of the Commodore 64 conversion of *The Legend of Zelda* to an 8-bit Atari
 
 - The whole first quest plays to the end: all eight triforce pieces, Level 9, Ganon, Zelda and the credits. A
   RAM-reading bot (`tools/bot/`) played it through from power-on, and the input log of that run is in the repo.
-  [RECORD.md](RECORD.md) explains how to turn that log into a movie of the game.
+  [RECORD.md](RECORD.md) explains how to turn that log into a movie of the whole game.
+- It has only been played this far by the bot, along one route. Other routes, the second quest and human play will
+  find bugs the bot never ran into.
 - Full speed on NTSC (60 Hz), with music and sound effects, smooth screen scrolls, and saves that survive power-off
   (on a disk in D1:).
 - Tested in AltirraSDL with the VBXE device only. **It has not been run on real hardware.**
