@@ -1,0 +1,12 @@
+resourceget "MachineVideoStandard"
+resourceget "VICIIModel"
+log on
+step $180000
+registers
+bank ram
+bsave "evidence/boot-ram.bin" 0 $0000 $ffff
+bank io
+bsave "evidence/boot-io.bin" 0 $d000 $dfff
+screenshot "evidence/boot.png" 2
+log off
+quit

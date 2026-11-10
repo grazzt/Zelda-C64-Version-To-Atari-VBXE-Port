@@ -1,0 +1,630 @@
+{
+"exits": {
+"77": [
+"left",
+"right",
+"up"
+],
+"67": [
+"down",
+"left",
+"right"
+],
+"66": [
+"down",
+"left",
+"right"
+],
+"65": [
+"down",
+"left",
+"right",
+"up"
+],
+"55": [
+"down",
+"left"
+],
+"56": [
+"left",
+"right",
+"up"
+],
+"46": [
+"down",
+"right"
+],
+"47": [
+"left",
+"right"
+],
+"48": [
+"down",
+"left",
+"up"
+],
+"38": [
+"down",
+"left",
+"up"
+],
+"68": [
+"down",
+"left",
+"right",
+"up"
+],
+"58": [
+"down",
+"left",
+"right",
+"up"
+],
+"37": [
+"right"
+],
+"28": [
+"down",
+"left",
+"right"
+],
+"29": [
+"left",
+"right"
+],
+"2A": [
+"down",
+"left",
+"right"
+],
+"2B": [
+"down",
+"left",
+"right"
+],
+"2C": [
+"left",
+"right",
+"up"
+],
+"3B": [
+"down",
+"left",
+"up"
+],
+"4B": [
+"down",
+"left"
+],
+"5B": [
+"down",
+"left",
+"right",
+"up"
+],
+"5C": [
+"down",
+"left",
+"right"
+],
+"5D": [
+"down",
+"left",
+"right",
+"up"
+],
+"4D": [
+"down",
+"left",
+"right",
+"up"
+],
+"3D": [
+"down",
+"up"
+],
+"4C": [
+"right",
+"up"
+],
+"3C": [
+"down"
+],
+"2D": [
+"down",
+"left",
+"right",
+"up"
+],
+"1D": [
+"down",
+"right",
+"up"
+],
+"0D": [
+"down",
+"left"
+],
+"0C": [
+"down",
+"right"
+],
+"1C": [
+"down",
+"left",
+"right",
+"up"
+],
+"1B": [
+"down",
+"left",
+"right",
+"up"
+],
+"1A": [
+"left",
+"right",
+"up"
+],
+"0A": [
+"down"
+],
+"19": [
+"left",
+"right"
+],
+"18": [
+"left",
+"right"
+],
+"17": [
+"down",
+"right"
+],
+"27": [
+"right",
+"up"
+],
+"64": [
+"left",
+"right",
+"up"
+],
+"63": [
+"down",
+"left",
+"right",
+"up"
+],
+"73": [
+"left",
+"right",
+"up"
+],
+"5A": [
+"down",
+"left",
+"right"
+],
+"59": [
+"down",
+"left",
+"right",
+"up"
+],
+"57": [
+"left",
+"right"
+],
+"75": [
+"up"
+],
+"74": [
+"left"
+],
+"53": [
+"down",
+"left",
+"right",
+"up"
+],
+"54": [
+"down",
+"left",
+"right",
+"up"
+],
+"44": [
+"down",
+"up"
+],
+"34": [
+"down"
+],
+"3A": [
+"down",
+"right",
+"up"
+],
+"4A": [
+"left",
+"right",
+"up"
+],
+"49": [
+"down",
+"right",
+"up"
+],
+"0B": [
+"down"
+],
+"43": [
+"down"
+],
+"52": [
+"down",
+"left",
+"right",
+"up"
+],
+"42": [
+"down"
+],
+"51": [
+"down",
+"right"
+],
+"61": [
+"down",
+"left",
+"right",
+"up"
+],
+"62": [
+"down",
+"left",
+"up"
+],
+"72": [
+"right",
+"up"
+],
+"60": [
+"right",
+"up"
+],
+"50": [
+"down",
+"up"
+],
+"40": [
+"down",
+"right",
+"up"
+],
+"30": [
+"down",
+"right",
+"up"
+],
+"20": [
+"down",
+"right"
+],
+"21": [
+"down",
+"left"
+],
+"31": [
+"down",
+"left",
+"right",
+"up"
+],
+"32": [
+"left",
+"right",
+"up"
+],
+"22": [
+"down"
+],
+"33": [
+"left",
+"up"
+],
+"23": [
+"down"
+],
+"41": [
+"left",
+"up"
+],
+"6C": [
+"right",
+"up"
+],
+"6B": [
+"down",
+"left",
+"right",
+"up"
+],
+"7B": [
+"left",
+"right",
+"up"
+],
+"7C": [
+"left",
+"right"
+],
+"7D": [
+"left",
+"right"
+],
+"7E": [
+"left",
+"right"
+],
+"7F": [
+"left",
+"up"
+],
+"6F": [
+"down",
+"left",
+"up"
+],
+"5F": [
+"down",
+"up"
+],
+"4F": [
+"down",
+"up"
+],
+"3F": [
+"down",
+"left"
+],
+"3E": [
+"right",
+"up"
+],
+"2E": [
+"down",
+"left"
+],
+"4E": [
+"left"
+],
+"5E": [
+"left"
+],
+"69": [
+"left",
+"right",
+"up"
+],
+"6A": [
+"left",
+"right",
+"up"
+],
+"6D": [
+"left",
+"right",
+"up"
+],
+"6E": [
+"left",
+"right"
+],
+"07": [
+"down",
+"left",
+"right"
+],
+"06": [
+"left",
+"right"
+]
+},
+"edges": {
+"77up": 103,
+"67left": 102,
+"66down": 118,
+"76left": 117,
+"75right": 118,
+"76right": 119,
+"77right": 120,
+"78up": 104,
+"68up": 88,
+"58left": 87,
+"57left": 86,
+"56up": 70,
+"46right": 71,
+"47right": 72,
+"48up": 56,
+"38left": 55,
+"66left": 101,
+"65up": 85,
+"55right": 86,
+"67right": 104,
+"58up": 72,
+"37right": 56,
+"38up": 40,
+"28right": 41,
+"29right": 42,
+"2Aright": 43,
+"2Bright": 44,
+"2Cleft": 43,
+"2Bdown": 59,
+"3Bdown": 75,
+"4Bdown": 91,
+"5Bright": 92,
+"5Cright": 93,
+"5Dup": 77,
+"4Dup": 61,
+"3Ddown": 77,
+"4Dleft": 76,
+"4Cup": 60,
+"3Cdown": 76,
+"4Cright": 77,
+"3Dup": 45,
+"2Dup": 29,
+"1Dup": 13,
+"0Ddown": 29,
+"0Dleft": 12,
+"0Cdown": 28,
+"1Cleft": 27,
+"1Bleft": 26,
+"1Aup": 10,
+"0Adown": 26,
+"1Aleft": 25,
+"19left": 24,
+"18left": 23,
+"17down": 39,
+"27right": 40,
+"28down": 56,
+"38down": 72,
+"48left": 71,
+"47left": 70,
+"46down": 86,
+"56left": 85,
+"55down": 101,
+"65left": 100,
+"64left": 99,
+"63down": 115,
+"73right": 116,
+"2Cright": 45,
+"2Ddown": 61,
+"4Ddown": 93,
+"5Dleft": 92,
+"5Cleft": 91,
+"5Bleft": 90,
+"5Aleft": 89,
+"59left": 88,
+"57right": 88,
+"58down": 104,
+"68left": 103,
+"67down": 119,
+"2Dleft": 44,
+"2Cup": 28,
+"65down": 117,
+"75up": 101,
+"74left": 115,
+"73up": 99,
+"63up": 83,
+"53right": 84,
+"54right": 85,
+"55left": 84,
+"54down": 100,
+"54up": 68,
+"44up": 52,
+"34down": 68,
+"44down": 84,
+"65right": 102,
+"66right": 103,
+"2Adown": 58,
+"3Adown": 74,
+"4Aleft": 73,
+"49down": 89,
+"59up": 73,
+"63right": 100,
+"64right": 101,
+"28left": 39,
+"27up": 23,
+"17right": 24,
+"18right": 25,
+"19right": 26,
+"1Aright": 27,
+"1Bup": 11,
+"0Bdown": 27,
+"64up": 84,
+"54left": 83,
+"53up": 67,
+"43down": 83,
+"53left": 82,
+"52up": 66,
+"42down": 82,
+"52left": 81,
+"51down": 97,
+"61right": 98,
+"62down": 114,
+"72up": 98,
+"62left": 97,
+"63left": 98,
+"62up": 82,
+"60up": 80,
+"50up": 64,
+"40up": 48,
+"30up": 32,
+"20right": 33,
+"21down": 49,
+"31right": 50,
+"32up": 34,
+"22down": 50,
+"32right": 51,
+"33up": 35,
+"32left": 49,
+"31down": 65,
+"41left": 64,
+"40down": 80,
+"50down": 96,
+"60right": 97,
+"52right": 83,
+"30right": 49,
+"52down": 98,
+"62right": 99,
+"48down": 88,
+"53down": 99,
+"58right": 89,
+"59right": 90,
+"5Aright": 91,
+"5Cdown": 108,
+"6Cleft": 107,
+"6Bdown": 123,
+"7Bright": 124,
+"7Cright": 125,
+"7Dright": 126,
+"7Eright": 127,
+"7Fup": 111,
+"6Fup": 95,
+"5Fup": 79,
+"4Fup": 63,
+"3Fleft": 62,
+"3Eup": 46,
+"2Eleft": 45,
+"4Dright": 78,
+"4Eleft": 77,
+"5Dright": 94,
+"5Eleft": 93,
+"68right": 105,
+"69right": 106,
+"6Aright": 107,
+"6Bright": 108,
+"6Cup": 92,
+"5Bup": 75,
+"4Bleft": 74,
+"4Aup": 58,
+"3Aright": 59,
+"3Bup": 43,
+"5Ddown": 109,
+"6Dleft": 108,
+"6Fleft": 110,
+"6Eleft": 109,
+"6Dup": 93,
+"07left": 6,
+"06left": 5,
+"5Bdown": 107,
+"7Bup": 107,
+"6Bleft": 106,
+"6Aleft": 105,
+"69left": 104,
+"31left": 48,
+"30down": 64
+}
+}

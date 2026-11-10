@@ -1,0 +1,16 @@
+/work/
+/evidence/
+/build/
+/dist/
+/assets/original/
+/Zelda_C64.crt
+/zelda_c64.zip
+/opencode.json
+/screenshots/
+/SCREENSHOT.md
+/monitor.log
+__pycache__/
+*.pyc
+*.vsf
+__pycache__/
+/github/
